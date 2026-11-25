@@ -5,6 +5,7 @@ if total <= 0:
     raise SystemExit("Total possible points must be greater than zero.")
 
 percentage = (score / total) * 100
+print(f"Points earned: {score:g} out of {total:g}")
 print(f"Your grade is {percentage:.2f}%")
 
 weight = float(input("Enter the assignment weight (%): "))
